@@ -1,0 +1,32 @@
+{
+  "name": "dmr-seabed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "DMR sediment map and spatial lookup for settlement prediction integration",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "build": "tsc --noEmit && vite build",
+    "start": "node server/serve.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4174",
+    "data:download": "python3 scripts/download_dmr.py",
+    "data:lookup": "python3 scripts/lookup_points.py"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "maplibre-gl": "6.13.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.1.2",
+    "vite": "8.3.4",
+    "typescript": "7.0.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/geojson": "7946.0.16"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "catalogueUrl": "https://data.dmr.go.th/dataset/seafloor_surficial_sediment",
+  "linkedServiceUrl": "https://gisportal.dmr.go.th/arcgis/rest/services/ENVI/SEAFLOOR_SURFICIAL_SEDIMENT/MapServer",
+  "verifiedAt": "2026-10-14T17:19:40.887905+00:00",
+  "verificationMethod": "Read publisher catalogue and followed its ArcGIS resource link to the service used in this app",
+  "mapScale": "1:50,000",
+  "dataUpdatedAt": "2023-12-22",
+  "referenceDate": "2022-04-01",
+  "publishedAt": "2022-06-30",
+  "catalogueRecordModifiedAt": "2026-08-13",
+  "collectionMethod": "Dredge sampling; sediment grain-size analysis; classification according to Shepard (1954)",
+  "licenseTitle": "Creative Commons Attributions",
+  "licenseVersion": null,
+  "perPolygonSurveyDate": null,
+  "note": "Catalogue dates are not per-polygon survey dates or proof the live service is an exact dated release."
+}

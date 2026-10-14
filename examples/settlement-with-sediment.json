@@ -1,0 +1,103 @@
+{
+  "datasetSource": "DMR",
+  "sourceFetchedAt": "2026-10-14T17:39:54.304902+00:00",
+  "sourceSha256": "df9b4e82d8c9aaf5fb9bdc302b950e7821a0def6906be702204eb6856c409fce",
+  "points": [
+    {
+      "prediction": {
+        "id": "synthetic-sand-point",
+        "longitude": 101.05452489459945,
+        "latitude": 12.655208684194317,
+        "elapsedDays": 20,
+        "transportStatus": "example-only",
+        "synthetic": true
+      },
+      "dmr": {
+        "longitude": 101.05452489459945,
+        "latitude": 12.655208684194317,
+        "status": "mapped",
+        "classKey": "sand",
+        "sedimentNameTh": "ตะกอนทรายทะเล",
+        "matches": [
+          {
+            "id": "dmr-580",
+            "OBJECTID": 580,
+            "classKey": "sand",
+            "SS_NAME_T": "ตะกอนทรายทะเล",
+            "SS_NAME_E": "Marine Sand Sediment",
+            "PROVINCE_T": "ระยอง",
+            "SS_CODE": "S",
+            "geometryRepaired": false
+          },
+          {
+            "id": "dmr-624",
+            "OBJECTID": 624,
+            "classKey": "sand",
+            "SS_NAME_T": "ตะกอนทรายทะเล",
+            "SS_NAME_E": "Marine Sand Sediment",
+            "PROVINCE_T": "ระยอง",
+            "SS_CODE": "S",
+            "geometryRepaired": false
+          }
+        ],
+        "source": "กรมทรัพยากรธรณี (DMR)",
+        "sourceFetchedAt": "2026-10-14T17:39:54.304902+00:00",
+        "sourceSha256": "df9b4e82d8c9aaf5fb9bdc302b950e7821a0def6906be702204eb6856c409fce",
+        "mapScale": "1:50,000",
+        "fieldVerified": false,
+        "habitatSuitability": "unknown",
+        "survivalProbability": null
+      }
+    },
+    {
+      "prediction": {
+        "id": "synthetic-island-point",
+        "longitude": 100.8125,
+        "latitude": 13.155,
+        "elapsedDays": 20,
+        "transportStatus": "example-only",
+        "synthetic": true
+      },
+      "dmr": {
+        "longitude": 100.8125,
+        "latitude": 13.155,
+        "status": "unmapped",
+        "classKey": null,
+        "sedimentNameTh": null,
+        "matches": [],
+        "source": "กรมทรัพยากรธรณี (DMR)",
+        "sourceFetchedAt": "2026-10-14T17:39:54.304902+00:00",
+        "sourceSha256": "df9b4e82d8c9aaf5fb9bdc302b950e7821a0def6906be702204eb6856c409fce",
+        "mapScale": "1:50,000",
+        "fieldVerified": false,
+        "habitatSuitability": "unknown",
+        "survivalProbability": null
+      }
+    },
+    {
+      "prediction": {
+        "id": "synthetic-outside-point",
+        "longitude": 102.0,
+        "latitude": 15.0,
+        "elapsedDays": 20,
+        "transportStatus": "example-only",
+        "synthetic": true
+      },
+      "dmr": {
+        "longitude": 102.0,
+        "latitude": 15.0,
+        "status": "outside-coverage",
+        "classKey": null,
+        "sedimentNameTh": null,
+        "matches": [],
+        "source": "กรมทรัพยากรธรณี (DMR)",
+        "sourceFetchedAt": "2026-10-14T17:39:54.304902+00:00",
+        "sourceSha256": "df9b4e82d8c9aaf5fb9bdc302b950e7821a0def6906be702204eb6856c409fce",
+        "mapScale": "1:50,000",
+        "fieldVerified": false,
+        "habitatSuitability": "unknown",
+        "survivalProbability": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "synthetic-sand-point",
+    "longitude": 101.05452489459945,
+    "latitude": 12.655208684194317,
+    "elapsedDays": 20,
+    "transportStatus": "example-only",
+    "synthetic": true
+  },
+  {
+    "id": "synthetic-island-point",
+    "longitude": 100.8125,
+    "latitude": 13.155,
+    "elapsedDays": 20,
+    "transportStatus": "example-only",
+    "synthetic": true
+  },
+  {
+    "id": "synthetic-outside-point",
+    "longitude": 102.0,
+    "latitude": 15.0,
+    "elapsedDays": 20,
+    "transportStatus": "example-only",
+    "synthetic": true
+  }
+]
